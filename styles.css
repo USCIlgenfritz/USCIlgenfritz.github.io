@@ -1,27 +1,27 @@
 body {
-  background: purple;
+  background: indigo;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  color: purple;
+  color: black;
   text-align: center;
 }
 .assign {
   display: flex;
   padding: 10px;
   margin: 10px;
-  background: black;
+  background: white;
 }
 .assign img {
   width: 200px;
   padding: 10px;
 }
 body {
-  background: purple;
+  background: indigo;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  color: purple;
+  color: blue;
   text-align: center;
 }
 .assign {
