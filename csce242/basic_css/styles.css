@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+}
+
+#main_header {
+    background-color: red;
+    text-align: center;
+}
+
+#main_navigation ul {
+    padding-left: 0;
+}
+
+#main_navigation li {
+    list-style: none;
+    border-bottom: 1px solid red;
+}
+
+#main_navigation a {
+    text-decoration: none;
+    padding: 10px;
+    background: black;
+    color: red;
+    display: block;
+}
+
+#main_footer {
+    background-color: red;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+
+#logo{
+    text-align: center;
+}
+
+@media only screen and (min-width:600px) {
+    .columns {
+        display: flex;
+    }
+
+    .one {
+        flex: 1;
+    }
+}

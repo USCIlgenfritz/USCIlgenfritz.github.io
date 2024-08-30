@@ -1,0 +1,39 @@
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content{
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#main_header{
+    background-color: red;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#main_description{
+background-color:red;
+width: 30%;
+}
+
+#main_nav ul {
+    padding-left: 0;
+}
+
+#main_nav li {
+    list-style: none;
+    border-bottom: 1px solid red;
+}
+
+#main_nav a{
+    text-decoration: none;
+    padding: 5px;
+    background: red;
+    color: black;
+    display: block;
+}
