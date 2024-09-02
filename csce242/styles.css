@@ -1,23 +1,41 @@
 body{
-    background-color: black;
+    background: url("images/empty-race-track-with-sunset-sky-background.jpg");
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #content{
-    width: 80%;
+    width: 90%;
     margin: auto;
     border-radius: 5px;
 }
 
 #main_header{
-    background-color: red;
+    background-color: purple;
     width: 50%;
     margin: auto;
     text-align: center;
 }
 
+#assignments{
+    background-color: rgb(50, 2, 2);
+    padding: 5px;
+    margin: 5px;
+}
+
+#main_assignment_title{
+text-align: center;
+}
+
+#HW section{
+    padding: 5x;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
 #main_description{
-background-color:red;
 width: 30%;
 }
 
@@ -36,4 +54,28 @@ width: 30%;
     background: red;
     color: black;
     display: block;
+}
+
+@media only screen and (min-width:600px) {
+    .columns {
+        display: flex;
+    }
+
+    .one{
+        flex: 1;
+    }
+
+    .two{
+        flex: 2;
+    }
+    
+    .HW {
+        flex: 4;
+    }
+}
+
+@media only screen and (max-width:599px) {
+    .columns {
+        display: block;
+    }
 }
