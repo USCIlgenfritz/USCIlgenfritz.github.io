@@ -1,0 +1,95 @@
+/* Structure */
+
+body {
+    background-color: skyblue;
+}
+
+#content {
+    background-color: white;
+}
+
+.columns-all {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+
+#main-img {
+    margin-right: 5px;
+}
+
+#main-header {
+    position: relative;
+}
+
+/* Gallery */
+#gallery-section {
+    background: aliceblue;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Login Menu */
+
+#login-menu {
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    position: absolute;
+    top: 3%;
+    right: 3%
+}
+
+#login-menu ul {
+    padding-left: 0%;
+    display: none;
+}
+
+#login-menu li {
+    list-style-type: none;
+}
+
+#login-menu a {
+    text-decoration: none;
+}
+
+#login-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Larger Resolution*/
+@media only screen and (min-width:600px) {
+    #content {
+        width: 70%;
+        margin: auto;
+    }
+
+    #login-menu ul {
+        display: flex;
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    #settings {
+        display: none;
+    }
+
+    .one {
+        flex: 1;
+    }
+
+    #gallery {
+        flex-wrap: wrap;
+    }
+
+    #gallery-section {
+        flex: 25;
+    }
+
+}

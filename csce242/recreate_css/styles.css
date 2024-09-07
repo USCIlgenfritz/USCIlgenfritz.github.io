@@ -1,0 +1,246 @@
+/* Structure */
+
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {}
+
+#main-header {
+    background-color: black;
+}
+
+#main-scroll-header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-logo {
+    padding: 15px;
+}
+
+#main-text {}
+
+
+#footer {
+    background-color: maroon;
+}
+
+#search-button {
+    background-color: maroon;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+/* Sections */
+
+#section-one-title {
+    background-color: maroon;
+    text-align: left;
+    margin: auto;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#section-one-text {
+    text-align: left;
+    margin: auto;
+    width: 45%;
+}
+
+#section-one-title {
+    background-color: maroon;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#section-one {
+    background-color: rgb(21, 21, 21);
+    padding-bottom: 50px;
+}
+
+#section-one-text {
+    text-align: left;
+    margin: auto;
+    width: 45%;
+}
+
+#section-two-title {
+    text-align: center;
+}
+
+#section-two-text {
+    padding: 10px;
+    text-align: center;
+}
+
+#section-three-title {
+    color: rgb(113, 43, 43);
+    text-align: left;
+    margin: auto;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#section-three {
+    background-color: rgb(40, 40, 40);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.button {
+    background-color: maroon;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+#section-three-text {
+    text-align: left;
+    margin: auto;
+    width: 45%;
+}
+
+/* Navigation */
+
+#main-nav {
+    text-align: right;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    padding-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: .625rem;
+}
+
+#searchbox {
+    text-align: right;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+
+#searchbox input {
+    height: 25px;
+}
+
+#search-button :hover {
+    background-color: maroon;
+}
+
+#typebox :hover {
+    background-color: lightgrey;
+}
+
+#main-nav-header {
+    padding-top: 10px;
+}
+
+
+#main-nav ul {
+    padding-left: 0;
+}
+
+#main-nav li {
+    list-style: none;
+    padding: 5px;
+}
+
+#main-nav a {
+    text-decoration: none;
+    padding: 5px;
+    background: black;
+    color: white;
+    display: block;
+}
+
+#second-nav ul {
+    padding-left: 0;
+
+}
+
+#second-nav li {
+    list-style: none;
+    padding: 5px;
+}
+
+#second-nav a:hover {
+    background-color: red;
+}
+
+#second-nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    display: block;
+}
+
+#second-nav {
+    text-align: center;
+    background-color: maroon;
+    margin: initial;
+    padding-right: 10px;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+/* Footer */
+
+#footer {
+    padding: 20px;
+}
+
+#footer-section-head {}
+
+/* Typography */
+
+/* Media Queries */
+@media only screen and (min-width:600px) {
+
+    #main-header {
+        display: flex;
+    }
+
+    #main-nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #main-nav {
+        display: flex;
+    }
+
+    #main-scroll-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #second-nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    #footer-section-head {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-two {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #section-two-title {}
+
+}
