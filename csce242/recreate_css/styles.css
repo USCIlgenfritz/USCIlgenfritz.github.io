@@ -243,4 +243,42 @@ body {
 
     #section-two-title {}
 
+    #section-four {
+        text-align: center;
+    }
+
+    #section-four-sections {
+        display: flex;
+        padding: 15px;
+    }
+
+    #assistantships {
+       flex-direction: column;
+    }
+
+    #scholarships {
+        flex-direction: column;
+    }
+
+    #fellowships {
+        flex-direction: column;
+    }
+
+    #travel-grants {
+        flex-direction: column;
+    }
+
+
+    #section-five {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 25px;
+        display: flex;
+    }
+
+    #section-five-text{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
 }
