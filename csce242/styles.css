@@ -31,6 +31,20 @@ text-align: center;
     margin: auto;
 }
 
+#project-title{
+    text-align: center;
+}
+
+#project{
+    background-color: rgb(50, 2, 2);
+    padding: 5px;
+    margin: 5px;
+}
+#projectHW section{
+    padding: 5x;
+    margin: auto;
+}
+
 img{
     max-width: 100%;
 }
@@ -70,7 +84,11 @@ width: 30%;
     }
     
     .HW {
-        flex: 4;
+        flex: 1;
+    }
+
+    .projectHW {
+        flex: 1;
     }
 }
 
