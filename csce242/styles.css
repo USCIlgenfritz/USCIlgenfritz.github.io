@@ -1,56 +1,57 @@
-body{
+body {
     background: url("images/empty-race-track-with-sunset-sky-background.jpg");
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#content{
+#content {
     width: 90%;
     margin: auto;
     border-radius: 5px;
 }
 
-#main_header{
+#main_header {
     background-color: purple;
     width: 50%;
     margin: auto;
     text-align: center;
 }
 
-#assignments{
+#assignments {
     background-color: rgb(50, 2, 2);
     padding: 5px;
     margin: 5px;
 }
 
-#main_assignment_title{
-text-align: center;
-}
-
-#HW section{
-    padding: 5x;
-    margin: auto;
-}
-
-#project-title{
+#main_assignment_title {
     text-align: center;
 }
 
-#project{
-    background-color: rgb(50, 2, 2);
-    padding: 5px;
-    margin: 5px;
-}
-#projectHW section{
+#HW section {
     padding: 5x;
     margin: auto;
 }
 
-img{
+#project-title {
+    text-align: center;
+}
+
+#project {
+    background-color: rgb(50, 2, 2);
+    padding: 5px;
+    margin: 5px;
+}
+
+#projectHW section {
+    padding: 5x;
+    margin: auto;
+}
+
+img {
     max-width: 100%;
 }
 
-#main_description{
-width: 30%;
+#main_description {
+    width: 30%;
 }
 
 #main_nav ul {
@@ -62,7 +63,7 @@ width: 30%;
     border-bottom: 1px solid red;
 }
 
-#main_nav a{
+#main_nav a {
     text-decoration: none;
     padding: 5px;
     background: red;
@@ -70,19 +71,19 @@ width: 30%;
     display: block;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width: 600px) {
     .columns {
         display: flex;
     }
 
-    .one{
+    .one {
         flex: 1;
     }
 
-    .two{
+    .two {
         flex: 2;
     }
-    
+
     .HW {
         flex: 1;
     }
@@ -92,7 +93,7 @@ width: 30%;
     }
 }
 
-@media only screen and (max-width:599px) {
+@media only screen and (max-width: 599px) {
     .columns {
         display: block;
     }

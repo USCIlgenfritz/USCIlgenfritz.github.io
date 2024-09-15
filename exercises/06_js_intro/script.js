@@ -12,8 +12,6 @@ const goodbyeButton = document.getElementById("goodbye");
 const columnButton = document.getElementById("btn-column");
 const animateButton = document.getElementById("surprise-two");
 
-
-
 //setting button to have an action on click
 //myButton.onclick = buttonClick;
 
