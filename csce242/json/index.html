@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--Connor Ilgenfritz-->
+<html lang="eng">
+<!--Title-->
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Basic JavaScript</title>
+</head>
+
+<!--Main Content-->
+
+<body>
+    <!--Header-->
+    <header id="main-header">
+        <h1>Assignment 7</h1>
+        <h2>Introduction to JavaScript</h2>
+    </header>
+
+    <!--Main Sections-->
+    <div id="sections">
+        <section class="columns" id="count-column">
+            <h3>Count</h3>
+            <p id="increaseMe">1</p>
+            <button id="number-button">Increase</button>
+        </section>
+        <section class="columns" id="image-column">
+            <h3>Random Image</h3>
+            <img id="random-image" src="https://picsum.photos/200" alt="Random Image" />
+            <button id="refresh-button">Refresh Image</button>
+        </section>
+        <section class="columns" id="slider-column">
+            <h3>Slider Move</h3>
+            <input type="range" id="slider" min="0" max="100" value="0" />
+            <div id="moving-square"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
