@@ -15,7 +15,6 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
 img {
   max-width: 100%;
   max-height: 100%;
@@ -130,12 +129,14 @@ img {
   border-radius: 8px;
 }
 
-.driver-list, .team-list {
+.driver-list,
+.team-list {
   margin-top: 10px;
   padding-left: 20px;
 }
 
-.driver-list li, .team-list li {
+.driver-list li,
+.team-list li {
   margin: 5px 0;
 }
 
@@ -216,7 +217,8 @@ table {
   margin-top: 20px;
 }
 
-th, td {
+th,
+td {
   padding: 12px;
   text-align: left;
   border: 1px solid #ddd;
