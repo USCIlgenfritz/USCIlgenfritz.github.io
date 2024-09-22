@@ -241,6 +241,14 @@ footer {
   margin-bottom: 20px;
 }
 
+.news-item h2{
+  padding: 5px;
+}
+
+.news-item p {
+  padding: 5px;
+}
+
 @media only screen and (max-width: 599px) {
   .main-info-section {
     display: flex;
