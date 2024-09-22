@@ -1,83 +1,93 @@
 <!DOCTYPE html>
-<html lang="eng">
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <title>WDC Standings</title>
-  </head>
+<html lang="en">
 
-  <!--WDC Page-->
-  <body>
-    <!--Header-->
-    <header id="main-header">
-      <h1>World Driver's Championship</h1>
-      <!--Navigation-->
-      <div id="main-nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="what-is-f1.html">What is F1?</a></li>
-          <li><a href="wcc.html">WCC Standings</a></li>
-          <li><a href="#">Login / Sign Up</a></li>
-        </ul>
-      </div>
-    </header>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <title>WDC Standings</title>
+</head>
 
-    <!--Main Content-->
+<body>
+  <!--Header-->
+  <header id="main-header">
+    <div id="heading">
+      <h1 id="title">RaceWay News: The Home for Formula 1 News</h1>
+    </div>
+    <!--Navigation-->
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="what-is-f1.html">What is F1?</a></li>
+        <li><a href="wdc.html">Standings</a></li>
+        <li><a href="grid.html">The Grid</a></li>
+        <li><a href="tracks.html">Tracks</a></li>
+        <li><a href="news.html">News</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Main Content-->
+  <main>
     <section class="main-info-section">
-      <img id="standings-img" src="https://place-hold.it/600x1000" />
       <section class="main-info-text">
-        <h2 class="main-info-header">
-          What is the World Driver's Championship
-        </h2>
+        <h2>What is the World Driver's Championship?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          fringilla quam sed neque lobortis, ac ullamcorper lacus convallis.
-          Aenean posuere a arcu dictum convallis. Donec rutrum turpis eu
-          porttitor condimentum. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Integer fringilla quam sed neque lobortis, ac
-          ullamcorper lacus convallis. Aenean posuere a arcu dictum convallis.
-          Donec rutrum turpis eu porttitor condimentum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Integer fringilla quam sed neque
-          lobortis, ac ullamcorper lacus convallis. Aenean posuere a arcu dictum
-          convallis. Donec rutrum turpis eu porttitor condimentum. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Integer fringilla quam
-          sed neque lobortis, ac ullamcorper lacus convallis. Aenean posuere a
-          arcu dictum convallis. Donec rutrum turpis eu porttitor condimentum.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          fringilla quam sed neque lobortis, ac ullamcorper lacus convallis.
-          Aenean posuere a arcu dictum convallis. Donec rutrum turpis eu
-          porttitor condimentum. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Integer fringilla quam sed neque lobortis, ac
-          ullamcorper lacus convallis. Aenean posuere a arcu dictum convallis.
-          Donec rutrum turpis eu porttitor condimentum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Integer fringilla quam sed neque
-          lobortis, ac ullamcorper lacus convallis.
+          The World Driver's Championship (WDC) is the title awarded to the
+          most successful Formula One driver over a season, based on a points
+          system.
         </p>
-        <h2 class="main-info-header">How Does Scoring Work?</h2>
+        <h2>What is the World Constructor's Championship?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          fringilla quam sed neque lobortis, ac ullamcorper lacus convallis.
-          Aenean posuere a arcu dictum convallis. Donec rutrum turpis eu
-          porttitor condimentum. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Integer fringilla quam sed neque lobortis, ac
-          ullamcorper lacus convallis. Aenean posuere a arcu dictum convallis.
-          Donec rutrum turpis eu porttitor condimentum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Integer fringilla quam sed neque
-          lobortis, ac ullamcorper lacus convallis. Aenean posuere a arcu dictum
-          convallis. Donec rutrum turpis eu porttitor condimentum. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Integer fringilla quam
-          sed neque lobortis, ac ullamcorper lacus convallis. Aenean posuere a
-          arcu dictum convallis. Donec rutrum turpis eu porttitor condimentum.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          fringilla quam sed neque lobortis, ac ullamcorper lacus convallis.
-          Aenean posuere a arcu dictum convallis. Donec rutrum turpis eu
-          porttitor condimentum. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Integer fringilla quam sed neque lobortis, ac
-          ullamcorper lacus convallis. Aenean posuere a arcu dictum convallis.
-          Donec rutrum turpis eu porttitor condimentum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Integer fringilla quam sed neque
-          lobortis, ac ullamcorper lacus convallis.
+          The World Constructor's Championship (WCC) is awarded to the most
+          successful Formula One constructor over a season, calculated by
+          accumulating points scored by both of its drivers.
+        </p>
+        <h2>How Does Scoring Work?</h2>
+        <p>
+          Points are awarded to drivers based on their finishing positions in
+          races. The current system awards points to the top ten finishers,
+          with the winner receiving 25 points.
         </p>
       </section>
     </section>
-  </body>
+    <!-- Top Ten Drivers and Teams Section -->
+    <section class="standings-section">
+      <div class="standings">
+        <h3>Top 10 Drivers</h3>
+        <ul>
+          <li>Max Verstappen - 331 PTS</li>
+          <li>Lando Norris - 279 PTS</li>
+          <li>Charles Leclerc - 245 PTS</li>
+          <li>Oscar Piastri - 237 PTS</li>
+          <li>Carlos Sainz - 190 PTS</li>
+          <li>Lewis Hamilton - 174 PTS</li>
+          <li>George Russel - 155 PTS</li>
+          <li>Sergio Perez - 144 PTS</li>
+          <li>Fernando Alonso - 62 PTS</li>
+          <li>Nico Hulkenberg - 24 PTS</li>
+        </ul>
+      </div>
+      <div class="standings">
+        <h3>Top 10 Teams</h3>
+        <ul>
+          <li>McLaren - 516 PTS</li>
+          <li>Red Bull - 475 PTS</li>
+          <li>Ferrari - 441 PTS</li>
+          <li>Mercedes - 329 PTS</li>
+          <li>Aston Martin - 86 PTS</li>
+          <li>Visa Cash App RB - 34 PTS</li>
+          <li>Haas - 31 PTS</li>
+          <li>Williams - 16 PTS</li>
+          <li>Alpine - 13 PTS</li>
+          <li>Kick Sauber - 0 PTS</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!--Footer-->
+  <footer>
+    <p>&copy; Connor Ilgenfritz</p>
+  </footer>
+</body>
+
 </html>

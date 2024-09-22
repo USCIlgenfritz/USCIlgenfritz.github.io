@@ -4,12 +4,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(34, 33, 33);
   color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0;
 }
+
+#main-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 
 img {
   max-width: 100%;
+  max-height: 100%;
 }
 
 #standings-img {
@@ -30,6 +39,10 @@ img {
   background-color: maroon;
 }
 
+#heading {
+  padding: 10px;
+}
+
 /** Navigation **/
 
 #main-nav {
@@ -38,23 +51,20 @@ img {
 }
 
 #main-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  padding-left: 0px;
+  margin: 0;
 }
 
 #main-nav li {
-  list-style: none;
-  color: white;
   text-decoration: none;
+  list-style-type: none;
+  padding: 5px;
 }
 
 #main-nav a {
   text-decoration: none;
+  color: black;
   padding: 5px;
-  background: maroon;
-  color: white;
-  display: flex;
 }
 
 #main-nav a:hover {
@@ -67,8 +77,6 @@ img {
 .main-info-section {
   padding: 50px;
   margin: auto;
-  display: flex;
-  flex-direction: row;
 }
 
 .main-info-header {
@@ -78,7 +86,6 @@ img {
 .main-info-text {
   padding: 5px;
   margin: auto;
-  flex-direction: column;
 }
 
 .type-two {
@@ -87,4 +94,186 @@ img {
   margin: auto;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item,
+.race-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.news-item img,
+.race-item img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+/* WDC Stadings */
+
+.top-standings {
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.driver-list, .team-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.driver-list li, .team-list li {
+  margin: 5px 0;
+}
+
+.info-section {
+  margin-bottom: 20px;
+}
+
+.standings-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-text {
+  margin-top: 10px;
+}
+
+.standings-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.standings {
+  width: 45%;
+  margin: 10px;
+}
+
+.standings h3 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.standings ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.standings li {
+  padding: 5px 0;
+}
+
+/* Grid Page */
+
+.driver-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.driver-team {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.driver-team img {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
+}
+
+#transfers {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Tracks */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* News Section */
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 599px) {
+  .main-info-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Larger Resolutions */
+
+@media only screen and (min-width: 600px) {
+  #main-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  #main-nav li {
+    flex: 1;
+  }
+
+  .main-info-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-info-text {
+    flex-direction: column;
+  }
+
+  #heading {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #title {
+    flex-grow: 1;
+  }
 }
