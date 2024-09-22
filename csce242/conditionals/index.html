@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--By Connor Ilgenfritz-->
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Client Side Content Assignment</title>
+  </head>
+  <body>
+    <div id="menu">
+      <div id="menu-toggle">▼</div>
+      <ul id="menu-items">
+        <li id="exercise1-btn">Exercise 1: Color Slider</li>
+        <li id="exercise2-btn">Exercise 2: Picture Chooser</li>
+      </ul>
+    </div>
+
+    <div id="main-content">
+      <div id="color-slider" class="exercise">
+        <h2>Color Slider</h2>
+        <input type="range" id="red-slider" min="0" max="255" />
+        <div id="color-preview" style="height: 100px; width: 100%"></div>
+        <p id="color-message">Move the slider to change the color!</p>
+      </div>
+
+      <div id="picture-chooser" class="exercise" style="display: none">
+        <h2>Picture Chooser</h2>
+        <button class="size-btn" data-size="small">Small Picture</button>
+        <button class="size-btn" data-size="medium">Medium Picture</button>
+        <button class="size-btn" data-size="large">Large Picture</button>
+        <div id="image-display"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
