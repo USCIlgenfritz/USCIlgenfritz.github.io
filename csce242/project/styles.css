@@ -239,6 +239,7 @@ footer {
 
 .news-item {
   margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .news-item h2 {
@@ -249,14 +250,14 @@ footer {
   padding: 5px;
 }
 
+/* Larger Resolutions */
+
 @media only screen and (max-width: 599px) {
   .main-info-section {
     display: flex;
     flex-direction: column;
   }
 }
-
-/* Larger Resolutions */
 
 @media only screen and (min-width: 600px) {
   #main-nav ul {
