@@ -46,6 +46,8 @@ img {
 #main-nav {
   padding: 10px;
   background-color: maroon;
+  font-size: large;
+  padding-bottom: 15px;
 }
 
 #main-nav ul {
@@ -57,12 +59,14 @@ img {
   text-decoration: none;
   list-style-type: none;
   padding: 5px;
+  padding-bottom: 0px;
 }
 
 #main-nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 5px;
+  padding-bottom: 0px;
 }
 
 #main-nav a:hover {
@@ -103,7 +107,38 @@ img {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#WIF1 {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#WIF1 h2 {
+  font-size: 2.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#WIF1 p {
+  margin-top: 10px;
+  font-size: 1.7rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: -40px;
+}
+
+#standings-teaser {
+  padding: 20px;
+  margin: auto;
 }
 
 .news-item,
@@ -118,6 +153,35 @@ img {
   height: auto;
   border-radius: 5px;
   margin-right: 20px;
+}
+
+/* Buttons */
+
+.lm-button {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: maroon;
+  color: black;
+
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 300px;
+}
+
+.news-button {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 125px;
 }
 
 /* WDC Standings */
@@ -223,18 +287,6 @@ td {
   border: 1px solid #ddd;
 }
 
-/* Footer */
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: white;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
 /* News Section */
 
 .news-item {
@@ -250,6 +302,18 @@ footer {
   padding: 5px;
 }
 
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
 /* Larger Resolutions */
 
 @media only screen and (max-width: 599px) {
@@ -260,6 +324,11 @@ footer {
 }
 
 @media only screen and (min-width: 600px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
   #main-nav ul {
     display: flex;
     flex-direction: row;
