@@ -132,14 +132,14 @@ const scheduleData = [
         "track": "Circuit of the Americas",
         "date": "October 20, 2024",
         "location": "Austin, USA",
-        "winner": ""
+        "winner": "Charles Leclerc"
     },
     {
         "race": "Mexican Grand Prix",
         "track": "Autódromo Hermanos Rodríguez",
         "date": "October 27, 2024",
         "location": "Mexico City, Mexico",
-        "winner": ""
+        "winner": "Carlos Sainz"
     },
     {
         "race": "Brazilian Grand Prix",
